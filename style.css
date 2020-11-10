@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-size: .875em;
+    overflow-x: hidden;
+    color: #353c4e;
+    background-attachment: fixed;
+}
+h1, h2, h3, h4 {
+    font-size: 24px;
+    font-family: 'Cera Pro',sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.inner-content{
+        font-family: 'Cera Pro',sans-serif;
+        padding: 10px;
+        background-color: #fff;
+}
+div, li, span {
+        font-family: 'Cera Pro',sans-serif;
+}
+.main-body {
+    font-family: 'Cera Pro',sans-serif;
+    padding: 0;
+    margin-top: 0;
+    transition: all ease-in .3s;
+}
+.heading{
+    letter-spacing: 1px;
+    margin: 4px 0;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+    padding: 20px 25px;
+    font-size: 37px;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.test-container{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+
+.test-card {
+    position: relative;
+    height: 485px;
+    width: 1010px;
+    padding: 10px 10px 0px 10px;
+    margin: 25px;
+    transition: .25s box-shadow;
+    box-shadow: 0 0 13px 3px #000;
+   
+}
+
+.test-card .test-img {
+    display: flex;
+    max-height: 135px;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+.test-card .test-img-hide {
+    display: flex;
+    max-height: 135px;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    -webkit-filter: blur(2px);
+}
+
+.test-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    border: 0;
+    width: 150px;
+    display: block;
+}
+.test-block{
+    text-align: center;
+    align-items: center;
+}
+
+.test-block-hide{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    filter: blur(2px);
+     -webkit-filter: blur(2px);
+}
+.test-card .test-block .test-title {
+    color: #666666;
+}
+h1, h2, h3, h4 {
+    font-size: 24px;
+    font-family: 'Cera Pro',sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h2 {
+    letter-spacing: 1px;
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+
+hr {
+    width: 90%;
+    border-top: 0.5px solid #cccccc;
+    margin: 0;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+h6 {
+    opacity: 0.6;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h6 {
+    font-family: 'Cera Pro',sans-serif;
+    font-size: 14px;
+}
+.p-t-10 {
+    font-family: 'Cera Pro',sans-serif;
+    padding-top: 10px!important;
+}
+.details-bottom {
+    height: 35px;
+    margin-top: 10px;
+}
+.details-progress{
+    width: 95%;
+    margin: 8px 5px;
+    height: 6px;
+    background: #f6f6f6;
+    position: relative;
+}
+.percent{
+    width: 44%; 
+    opacity: 0.6;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Cera Pro',sans-serif;
+    font-size: 12px; 
+}
+.details-progress span{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    background: #85a8c9;
+}
+.btn_space{
+  margin-right: 8px;
+  padding: 10px 20px;
+    background-color: #45aed6;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn_space:hover, .btn_space:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+.bottom-text{
+    width:100%; 
+    opacity: 0.6;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Cera Pro',sans-serif;
+    font-size: 12px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+}
+.checked {
+    color: orange;
+  }
+
+
+  .unlocked{
+    display: flex;
+    flex-flow: nowrap;
+    overflow-x: scroll;
+}
+.unlocked::-webkit-scrollbar{
+    display: none;
+}
+
